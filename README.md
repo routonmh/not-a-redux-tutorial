@@ -6,7 +6,7 @@ Redux tutorials suck, this is not a tutorial. This is an commented implementatio
 
 #### Multiple Stores
 
-Most sources will tell you not to use multiple stores with Redux. This is pure bullshit. Maybe if you're building
+Most sources will tell you not to use multiple stores with Redux. I can't disagree strongly enough. Maybe if you're building
 a toaster, you only need a single store. I don't often work on toasters. 
 
 I've seen the following against multiple stores:
