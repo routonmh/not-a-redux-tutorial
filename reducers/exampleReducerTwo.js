@@ -6,7 +6,7 @@
  */
 export const exampleReducerTwo = (state = {}, action) => {
 
-    let retState = Utils.createDeepCopy(state);
+    let retState = JSON.parse(JSON.stringify(state));
 
     switch (action.type) {
         case "UPDATE_VALUE_TWO":
